@@ -1,0 +1,5 @@
+d:\my documents\visual studio 2010\Projects\wirekom\wirekom\bin\wirekom.dll
+d:\my documents\visual studio 2010\Projects\wirekom\wirekom\bin\wirekom.pdb
+d:\my documents\visual studio 2010\Projects\wirekom\wirekom\obj\Debug\ResolveAssemblyReference.cache
+d:\my documents\visual studio 2010\Projects\wirekom\wirekom\obj\Debug\wirekom.dll
+d:\my documents\visual studio 2010\Projects\wirekom\wirekom\obj\Debug\wirekom.pdb
