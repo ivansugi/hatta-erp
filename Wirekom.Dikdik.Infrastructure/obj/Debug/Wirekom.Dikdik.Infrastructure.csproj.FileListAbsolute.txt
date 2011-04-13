@@ -1,0 +1,18 @@
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\bin\Debug\Wirekom.Dikdik.Infrastructure.dll
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\bin\Debug\Wirekom.Dikdik.Infrastructure.pdb
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\bin\Debug\log4net.dll
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\bin\Debug\NHibernate.dll
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\bin\Debug\Iesi.Collections.dll
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\bin\Debug\Antlr3.Runtime.dll
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\obj\Debug\Wirekom.Dikdik.Infrastructure.dll
+C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Infrastructure\obj\Debug\Wirekom.Dikdik.Infrastructure.pdb
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\bin\Debug\Wirekom.Dikdik.Infrastructure.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\bin\Debug\Wirekom.Dikdik.Infrastructure.pdb
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\bin\Debug\log4net.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\bin\Debug\NHibernate.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\bin\Debug\Iesi.Collections.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\obj\Debug\Wirekom.Dikdik.Infrastructure.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Infrastructure\obj\Debug\Wirekom.Dikdik.Infrastructure.pdb
