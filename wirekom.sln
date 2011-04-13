@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wirekom", "wirekom\wirekom.csproj", "{9E0D23FC-DBF9-4D1B-A7EB-0EF249BAAA7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Dikdik.Infrastructure", "Wirekom.Dikdik.Infrastructure\Wirekom.Dikdik.Infrastructure.csproj", "{FFA25FFA-3990-42E3-A1A0-00FA861283AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Hatta", "Wirekom.Hatta\Wirekom.Hatta.csproj", "{9E0D23FC-DBF9-4D1B-A7EB-0EF249BAAA7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Dikdik.Repository", "Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj", "{9473AB10-A0A6-4FD9-B137-E45CD50B23A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFA25FFA-3990-42E3-A1A0-00FA861283AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA25FFA-3990-42E3-A1A0-00FA861283AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA25FFA-3990-42E3-A1A0-00FA861283AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA25FFA-3990-42E3-A1A0-00FA861283AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E0D23FC-DBF9-4D1B-A7EB-0EF249BAAA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E0D23FC-DBF9-4D1B-A7EB-0EF249BAAA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0D23FC-DBF9-4D1B-A7EB-0EF249BAAA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0D23FC-DBF9-4D1B-A7EB-0EF249BAAA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9473AB10-A0A6-4FD9-B137-E45CD50B23A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9473AB10-A0A6-4FD9-B137-E45CD50B23A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9473AB10-A0A6-4FD9-B137-E45CD50B23A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9473AB10-A0A6-4FD9-B137-E45CD50B23A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

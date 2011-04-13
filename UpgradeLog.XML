@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="wirekom">
+</Property><Property Name="Solution File" Value="C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\wirekom.sln">
+</Property><Property Name="Date" Value="Wednesday, April 13, 2011">
+</Property><Property Name="Time" Value="9:47:34 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj" Description="Project file successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\Wirekom.Dikdik.Repository.csproj">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj.user" Description="Project user file successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\Wirekom.Dikdik.Repository.csproj.user">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Repositories\Repository.cs" Description="File successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\Repositories\Repository.cs">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\SessionManager\ISessionStorageContainer.cs" Description="File successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\SessionManager\ISessionStorageContainer.cs">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\SessionManager\SessionFactory.cs" Description="File successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\SessionManager\SessionFactory.cs">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\SessionManager\SessionStorageFactory.cs" Description="File successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\SessionManager\SessionStorageFactory.cs">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\SessionManager\ThreadSessionContainer.cs" Description="File successfully backed up as C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Backup\SessionManager\ThreadSessionContainer.cs">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Wirekom.Dikdik.Repository" Source="Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
