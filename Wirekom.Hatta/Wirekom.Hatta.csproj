@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>wirekom</RootNamespace>
-    <AssemblyName>wirekom</AssemblyName>
+    <RootNamespace>Wirekom.Hatta</RootNamespace>
+    <AssemblyName>Wirekom.Hatta</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
   </PropertyGroup>
@@ -88,8 +88,19 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Wirekom.Dikdik.Infrastructure">
+      <HintPath>..\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Wirekom.Dikdik.Repository">
+      <HintPath>..\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Repository.dll</HintPath>
+    </Reference>
+    <Reference Include="Wirekom.Hatta.Models">
+      <HintPath>..\Wirekom.Hatta.Models\bin\Debug\Wirekom.Hatta.Models.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="NHibernateSessionModule.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -97,6 +108,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Hatta.mdf" />
+    <Content Include="App_Data\Hatta_log.ldf">
+      <DependentUpon>Hatta.mdf</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\jquery-ui.css" />

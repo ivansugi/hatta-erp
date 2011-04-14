@@ -6,7 +6,7 @@ namespace Wirekom.Dikdik.Infrastructure.Configuration
         private static IApplicationSettings _applicationSettings;
         static ApplicationSettingsFactory()
         {
-            _applicationSettings = new PDAMSMSGatewaySettings();
+            _applicationSettings = new HattaSettings();
         }
         public static IApplicationSettings GetApplicationSettings()
         {

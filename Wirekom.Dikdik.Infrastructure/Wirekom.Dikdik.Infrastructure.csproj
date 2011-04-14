@@ -63,7 +63,7 @@
   <ItemGroup>
     <Compile Include="Configuration\ApplicationSettingsFactory.cs" />
     <Compile Include="Configuration\IApplicationSettings.cs" />
-    <Compile Include="Configuration\PDAMSMSGatewaySettings.cs" />
+    <Compile Include="Configuration\HattaSettings.cs" />
     <Compile Include="Domain\EntityBase.cs" />
     <Compile Include="Domain\IAggregateRoot.cs" />
     <Compile Include="Domain\IReadOnlyRepository.cs" />
