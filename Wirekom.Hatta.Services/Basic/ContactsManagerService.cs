@@ -1,28 +1,23 @@
-﻿using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using System.Web.Mvc;
-using Wirekom.Hatta.Services.Validation;
+﻿using System;
+using System.Collections.Generic;
+using Wirekom.Hatta.Models.Basic;
 using Wirekom.Dikdik.Repository.Repositories;
 using Wirekom.Dikdik.Infrastructure;
-using Wirekom.Hatta.Models.Basic;
-using Wirekom.Hatta.Models;
-
-namespace Wirekom.Hatta.Services
+using Wirekom.Hatta.Models.Validation;
+using System.Text.RegularExpressions;
+namespace Wirekom.Hatta.Services.Basic
 {
-    public class ContactManagerService : IContactManagerService
+    public class ContactsManagerService : IContactsManagerService
     {
         private IValidationDictionary _validationDictionary;
-        private IContactRepository _repository;
-
-
-        public ContactManagerService(IValidationDictionary validationDictionary)
+        private IContactsRepository _repository;
+        public ContactsManagerService(IValidationDictionary validationDictionary)
         {
             _validationDictionary = validationDictionary;
             _repository = new ContactsRepository();
         }
 
-
-        public ContactManagerService(IValidationDictionary validationDictionary, IContactRepository repository)
+        public ContactsManagerService(IValidationDictionary validationDictionary, IContactsRepository repository)
         {
             _validationDictionary = validationDictionary;
             _repository = repository;
@@ -42,19 +37,14 @@ namespace Wirekom.Hatta.Services
             return _validationDictionary.IsValid;
         }
 
-
-        #region IContactManagerService Members
-
-        public bool CreateContact(Contacts contactToCreate)
-        {
-            // Validation logic
-            if (!ValidateContact(contactToCreate))
+        public bool AddContact(Contacts contactToAdd) {
+            if (!ValidateContact(contactToAdd))
                 return false;
 
             // Database logic
             try
             {
-                _repository.Add(contactToCreate);
+                _repository.Add(contactToAdd);
                 _repository.Commit();
             }
             catch
@@ -62,51 +52,42 @@ namespace Wirekom.Hatta.Services
                 return false;
             }
             return true;
+            
         }
-
-        public bool EditContact(Contact contactToEdit)
-        {
-            // Validation logic
-            if (!ValidateContact(contactToEdit))
-                return false;
-
-            // Database logic
-            try
-            {
-                _repository.Save(contactToEdit);
-                _repository.Commit();
-            }
-            catch
-            {
-                return false;
-            }
-            return true;
-        }
-
-        public bool DeleteContact(Contact contactToDelete)
-        {
-            //try
-            //{
-                _repository.Remove(contactToDelete);
-                _repository.Commit();
+        public bool DeleteContact(Contacts contactToDelete) {
+            _repository.Delete(contactToDelete);
+            _repository.Commit();
             //}
             //catch
             //{
             //    return false;
             //}
-                return true;
+            return true;
+        }
+        public bool UpdateContact(Contacts contactToUpdate) {
+            if (!ValidateContact(contactToUpdate))
+                return false;
+
+            // Database logic
+            try
+            {
+                _repository.Update(contactToUpdate);
+                _repository.Commit();
+            }
+            catch
+            {
+                return false;
+            }
+            return true;
+        }
+        public Contacts GetContact(int id) {
+            return _repository.GetById(id);
+        }
+        public IEnumerable<Contacts> GetAll() {
+            return _repository.GetAll();
         }
 
-        public Contact GetContact(int id)
-        {
-            return _repository.FindBy(id);
-        }
-
-        public IEnumerable<Contact> ListContacts()
-        {
-            return _repository.FindAll();
-        }
-
-        #endregion
     }
+    
+
 }

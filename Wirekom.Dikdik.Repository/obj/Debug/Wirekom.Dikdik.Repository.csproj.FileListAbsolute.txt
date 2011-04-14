@@ -12,17 +12,19 @@ C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wireko
 C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Infrastructure.pdb
 C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Repository\obj\Debug\Wirekom.Dikdik.Repository.dll
 C:\Documents and Settings\dikdik\My Documents\Visual Studio 2008\Projects\Wirekom.Dikdik\Wirekom.Dikdik.Repository\obj\Debug\Wirekom.Dikdik.Repository.pdb
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Repository.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Repository.pdb
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\FluentNHibernate.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\NHibernate.ByteCode.Castle.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\NHibernate.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Infrastructure.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Hatta.Models.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\log4net.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Iesi.Collections.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Antlr3.Runtime.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Castle.Core.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Dikdik.Infrastructure.pdb
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\bin\Debug\Wirekom.Hatta.Models.pdb
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\obj\Debug\Wirekom.Dikdik.Repository.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Dikdik.Repository\obj\Debug\Wirekom.Dikdik.Repository.pdb

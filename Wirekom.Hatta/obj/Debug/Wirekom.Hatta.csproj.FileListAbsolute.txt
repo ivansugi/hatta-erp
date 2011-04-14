@@ -3,6 +3,9 @@ C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\wirekom\bin\
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\wirekom\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\wirekom\obj\Debug\wirekom.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\wirekom\obj\Debug\wirekom.pdb
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.pdb
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Antlr3.Runtime.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Castle.Core.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Castle.DynamicProxy2.dll
@@ -14,14 +17,13 @@ C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatt
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\NHibernate.ByteCode.LinFu.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\NHibernate.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Npgsql.dll
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Dikdik.Infrastructure.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Dikdik.Repository.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.Models.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Dikdik.Infrastructure.pdb
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Dikdik.Repository.pdb
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.dll
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.pdb
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.Models.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.Models.pdb
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\obj\Debug\Wirekom.Hatta.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\obj\Debug\Wirekom.Hatta.pdb
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.Services.dll
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta\bin\Wirekom.Hatta.Services.pdb

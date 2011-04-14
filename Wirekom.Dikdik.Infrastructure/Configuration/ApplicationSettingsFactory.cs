@@ -7,6 +7,7 @@ namespace Wirekom.Dikdik.Infrastructure.Configuration
         static ApplicationSettingsFactory()
         {
             _applicationSettings = new HattaSettings();
+
         }
         public static IApplicationSettings GetApplicationSettings()
         {

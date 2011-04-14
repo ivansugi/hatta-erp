@@ -1,3 +1,4 @@
+C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Wirekom.Hatta.Models.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Wirekom.Hatta.Models.pdb
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Antlr3.Runtime.dll
@@ -12,9 +13,6 @@ C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatt
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\NHibernate.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Npgsql.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Wirekom.Dikdik.Infrastructure.dll
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Wirekom.Dikdik.Repository.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Wirekom.Dikdik.Infrastructure.pdb
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\bin\Debug\Wirekom.Dikdik.Repository.pdb
-C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\obj\Debug\Wirekom.Hatta.Models.dll
 C:\Users\ivansugiarto\Documents\Visual Studio 2010\Projects\Wirekom\Wirekom.Hatta.Models\obj\Debug\Wirekom.Hatta.Models.pdb

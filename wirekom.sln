@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Dikdik.Repository",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Hatta.Models", "Wirekom.Hatta.Models\Wirekom.Hatta.Models.csproj", "{AEC716E9-99F3-4A9A-9BAE-F61402CFE213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Hatta.Services", "Wirekom.Hatta.Services\Wirekom.Hatta.Services.csproj", "{26668814-EB64-451F-B50A-E0A320C45B5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wirekom.Hatta.Services", "Wirekom.Hatta.Services\Wirekom.Hatta.Services.csproj", "{D4BFC9CB-AC44-488D-A203-7CF158C23544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,10 @@ Global
 		{AEC716E9-99F3-4A9A-9BAE-F61402CFE213}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC716E9-99F3-4A9A-9BAE-F61402CFE213}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC716E9-99F3-4A9A-9BAE-F61402CFE213}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26668814-EB64-451F-B50A-E0A320C45B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26668814-EB64-451F-B50A-E0A320C45B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26668814-EB64-451F-B50A-E0A320C45B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26668814-EB64-451F-B50A-E0A320C45B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BFC9CB-AC44-488D-A203-7CF158C23544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BFC9CB-AC44-488D-A203-7CF158C23544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BFC9CB-AC44-488D-A203-7CF158C23544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BFC9CB-AC44-488D-A203-7CF158C23544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

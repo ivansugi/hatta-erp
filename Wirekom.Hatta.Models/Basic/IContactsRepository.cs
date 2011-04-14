@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
 using Wirekom.Dikdik.Infrastructure.Domain;
+using Wirekom.Hatta.Models.Basic;
 
 namespace Wirekom.Hatta.Models.Basic
 {
-    public interface IContactRepository : IRepository <Contacts,int>{ 
+    public interface IContactsRepository : IRepository <Contacts,int>{ 
     
     }
 }

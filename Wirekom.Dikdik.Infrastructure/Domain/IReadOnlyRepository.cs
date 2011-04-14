@@ -5,8 +5,8 @@ namespace Wirekom.Dikdik.Infrastructure.Domain
 {
     public interface IReadOnlyRepository<TEntity,TId> where TEntity: IAggregateRoot
     {
-        void GetById(TId id);
-        void GetAll();
+        TEntity GetById(TId id);
+        IEnumerable<TEntity> GetAll();
         IEnumerable<TEntity> GetBy(List<ICriterion> criterions);
     }
 }

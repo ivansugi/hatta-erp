@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{26668814-EB64-451F-B50A-E0A320C45B5D}</ProjectGuid>
+    <ProjectGuid>{D4BFC9CB-AC44-488D-A203-7CF158C23544}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Wirekom.Hatta.Services</RootNamespace>
@@ -31,69 +31,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Antlr3.Runtime">
-      <HintPath>..\Wirekom.Hatta\bin\Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.Core">
-      <HintPath>..\Wirekom.Hatta\bin\Castle.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Castle.DynamicProxy2">
-      <HintPath>..\Wirekom.Hatta\bin\Castle.DynamicProxy2.dll</HintPath>
-    </Reference>
-    <Reference Include="FluentNHibernate">
-      <HintPath>..\Wirekom.Hatta\bin\FluentNHibernate.dll</HintPath>
-    </Reference>
-    <Reference Include="Iesi.Collections">
-      <HintPath>..\Wirekom.Hatta\bin\Iesi.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="log4net">
-      <HintPath>..\Wirekom.Hatta\bin\log4net.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Security">
-      <HintPath>..\Wirekom.Hatta\bin\Mono.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\Wirekom.Hatta\bin\NHibernate.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate.ByteCode.Castle">
-      <HintPath>..\Wirekom.Hatta\bin\NHibernate.ByteCode.Castle.dll</HintPath>
-    </Reference>
-    <Reference Include="NHibernate.ByteCode.LinFu">
-      <HintPath>..\Wirekom.Hatta\bin\NHibernate.ByteCode.LinFu.dll</HintPath>
-    </Reference>
-    <Reference Include="Npgsql">
-      <HintPath>..\Wirekom.Hatta\bin\Npgsql.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Wirekom.Dikdik.Infrastructure">
-      <HintPath>..\Wirekom.Hatta\bin\Wirekom.Dikdik.Infrastructure.dll</HintPath>
-    </Reference>
-    <Reference Include="Wirekom.Dikdik.Repository">
-      <HintPath>..\Wirekom.Hatta\bin\Wirekom.Dikdik.Repository.dll</HintPath>
-    </Reference>
-    <Reference Include="Wirekom.Hatta">
-      <HintPath>..\Wirekom.Hatta\bin\Wirekom.Hatta.dll</HintPath>
-    </Reference>
-    <Reference Include="Wirekom.Hatta.Models">
-      <HintPath>..\Wirekom.Hatta\bin\Wirekom.Hatta.Models.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Basic\ContactManagerService.cs" />
-    <Compile Include="Basic\IContactManagerService.cs" />
+    <Compile Include="Basic\ContactsManagerService.cs" />
+    <Compile Include="Basic\IContactsManagerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Validation\IValidationDictionary.cs" />
-    <Compile Include="Validation\ModelStateWrapper.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Wirekom.Dikdik.Infrastructure\Wirekom.Dikdik.Infrastructure.csproj">
+      <Project>{FFA25FFA-3990-42E3-A1A0-00FA861283AD}</Project>
+      <Name>Wirekom.Dikdik.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wirekom.Dikdik.Repository\Wirekom.Dikdik.Repository.csproj">
+      <Project>{9473AB10-A0A6-4FD9-B137-E45CD50B23A7}</Project>
+      <Name>Wirekom.Dikdik.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wirekom.Hatta.Models\Wirekom.Hatta.Models.csproj">
+      <Project>{AEC716E9-99F3-4A9A-9BAE-F61402CFE213}</Project>
+      <Name>Wirekom.Hatta.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

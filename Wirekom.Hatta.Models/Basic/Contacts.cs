@@ -1,7 +1,7 @@
 ﻿using System;
 using Wirekom.Dikdik.Infrastructure.Domain;
 
-namespace Wirekom.Hatta.Models
+namespace Wirekom.Hatta.Models.Basic
 {
     public class Contacts : EntityBase<int>, IAggregateRoot
     {

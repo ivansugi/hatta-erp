@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Wirekom.Hatta.Services.Validation
+namespace Wirekom.Hatta.Models.Validation
 {
     public class ModelStateWrapper : IValidationDictionary
     {

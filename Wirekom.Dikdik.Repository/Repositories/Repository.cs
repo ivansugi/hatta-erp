@@ -6,6 +6,7 @@ using Wirekom.Dikdik.Repository.SessionManager;
 using System.Web;
 using Wirekom.Dikdik.Infrastructure.Logging;
 
+
 namespace Wirekom.Dikdik.Repository.Repositories
 {
     public abstract class Repository<T, TEntityKey> where T : IAggregateRoot
