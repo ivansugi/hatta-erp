@@ -38,20 +38,23 @@ namespace Wirekom.Hatta.Services.Basic
         }
 
         public bool AddContact(Contacts contactToAdd) {
-            if (!ValidateContact(contactToAdd))
+            if (!ValidateContact(contactToAdd)){
                 return false;
+            } else {
 
             // Database logic
-            try
-            {
+            //try
+            //{
                 _repository.Add(contactToAdd);
                 _repository.Commit();
-            }
-            catch
-            {
-                return false;
-            }
-            return true;
+            
+            //catch
+            //{
+              //  return false;
+            //}
+                return true;
+
+            }   
             
         }
         public bool DeleteContact(Contacts contactToDelete) {

@@ -11,8 +11,9 @@ namespace Wirekom.Dikdik.Repository.Mapping
     {
         public ContactsMap()
         {
+            Not.LazyLoad();
             Table("Contacts");
-            Id(x => x.Id).Column("Id").Column("Id");
+            Id(x => x.Id).Column("Id").Index("Id");
             Map(x => x.FirstName).Column("FirstName");
             Map(x => x.LastName).Column("LastName");
             Map(x => x.Phone).Column("Phone");

@@ -2,7 +2,7 @@
 
 namespace Wirekom.Dikdik.Infrastructure.Domain
 {
-    public class EntityBase<TId>
+    public abstract class EntityBase<TId>
     {
         public virtual TId Id { get; private set; }
 

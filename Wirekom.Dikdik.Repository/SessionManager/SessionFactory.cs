@@ -4,7 +4,7 @@ using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
 using Wirekom.Dikdik.Infrastructure.Configuration;
 //reference untuk mendukung mapping di method init
-//using Wirekom.Dikdik.Repository.Mapping;
+using Wirekom.Dikdik.Repository.Mapping;
 using NHibernate.ByteCode.Castle;
 using Wirekom.Dikdik.Infrastructure.Logging;
 
@@ -38,15 +38,15 @@ namespace Wirekom.Dikdik.Repository.SessionManager
         {
             try
             {
-                IPersistenceConfigurer config = PostgreSQLConfiguration.PostgreSQL82.
+                IPersistenceConfigurer config = MsSqlConfiguration.MsSql2008.
                     ConnectionString(ApplicationSettingsFactory.GetApplicationSettings().ConnectionString)
                     .AdoNetBatchSize(100)
-                    .ProxyFactoryFactory<ProxyFactoryFactory>()
-                    .ShowSql();
+                    .ProxyFactoryFactory<ProxyFactoryFactory>();
+                    //.ShowSql();
                 _sessionFactory = Fluently.Configure()
                     .Database(config)
                     //ini harus di configusi sesuai dengan salah satu file mapping yang dibuat.
-                    //.Mappings(x => x.FluentMappings.AddFromAssemblyOf<TrContractFormatMap>())
+                    .Mappings(x => x.FluentMappings.AddFromAssemblyOf<ContactsMap>())
                     .BuildSessionFactory();
             }
             catch (Exception e)
